@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6772B5B32EAEF67B682B037B /* libPods-ZYY_MJExtensionStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D107EFA1348ADB6356D552F7 /* libPods-ZYY_MJExtensionStudy.a */; };
 		A03E17651D5B00B6004DE13D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E17641D5B00B6004DE13D /* main.m */; };
 		A03E17681D5B00B6004DE13D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E17671D5B00B6004DE13D /* AppDelegate.m */; };
 		A03E176B1D5B00B6004DE13D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E176A1D5B00B6004DE13D /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3588CD6FC40DA4218411C7DC /* Pods-ZYY_MJExtensionStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYY_MJExtensionStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYY_MJExtensionStudy/Pods-ZYY_MJExtensionStudy.release.xcconfig"; sourceTree = "<group>"; };
+		792D11DBEF7E15CC835E6B63 /* Pods-ZYY_MJExtensionStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYY_MJExtensionStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYY_MJExtensionStudy/Pods-ZYY_MJExtensionStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		A03E17601D5B00B6004DE13D /* ZYY_MJExtensionStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYY_MJExtensionStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E17641D5B00B6004DE13D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A03E17661D5B00B6004DE13D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		A03E17841D5B00B6004DE13D /* ZYY_MJExtensionStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYY_MJExtensionStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E17881D5B00B6004DE13D /* ZYY_MJExtensionStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYY_MJExtensionStudyUITests.m; sourceTree = "<group>"; };
 		A03E178A1D5B00B6004DE13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D107EFA1348ADB6356D552F7 /* libPods-ZYY_MJExtensionStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYY_MJExtensionStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6772B5B32EAEF67B682B037B /* libPods-ZYY_MJExtensionStudy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2630692419EAD7220649F303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D107EFA1348ADB6356D552F7 /* libPods-ZYY_MJExtensionStudy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607F292DD9618F945FA27C4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				792D11DBEF7E15CC835E6B63 /* Pods-ZYY_MJExtensionStudy.debug.xcconfig */,
+				3588CD6FC40DA4218411C7DC /* Pods-ZYY_MJExtensionStudy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A03E17571D5B00B6004DE13D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				A03E177C1D5B00B6004DE13D /* ZYY_MJExtensionStudyTests */,
 				A03E17871D5B00B6004DE13D /* ZYY_MJExtensionStudyUITests */,
 				A03E17611D5B00B6004DE13D /* Products */,
+				607F292DD9618F945FA27C4F /* Pods */,
+				2630692419EAD7220649F303 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A03E178D1D5B00B6004DE13D /* Build configuration list for PBXNativeTarget "ZYY_MJExtensionStudy" */;
 			buildPhases = (
+				D6D2C677DC2E5FD4B6C3F0B0 /* [CP] Check Pods Manifest.lock */,
 				A03E175C1D5B00B6004DE13D /* Sources */,
 				A03E175D1D5B00B6004DE13D /* Frameworks */,
 				A03E175E1D5B00B6004DE13D /* Resources */,
+				D8F0C91881A9FAD6D21045B4 /* [CP] Embed Pods Frameworks */,
+				6FA83205954B71A07326CE90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FA83205954B71A07326CE90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYY_MJExtensionStudy/Pods-ZYY_MJExtensionStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D2C677DC2E5FD4B6C3F0B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8F0C91881A9FAD6D21045B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYY_MJExtensionStudy/Pods-ZYY_MJExtensionStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A03E175C1D5B00B6004DE13D /* Sources */ = {
@@ -413,6 +488,7 @@
 		};
 		A03E178E1D5B00B6004DE13D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792D11DBEF7E15CC835E6B63 /* Pods-ZYY_MJExtensionStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYY_MJExtensionStudy/Info.plist;
@@ -424,6 +500,7 @@
 		};
 		A03E178F1D5B00B6004DE13D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3588CD6FC40DA4218411C7DC /* Pods-ZYY_MJExtensionStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYY_MJExtensionStudy/Info.plist;
@@ -498,6 +575,7 @@
 				A03E178F1D5B00B6004DE13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A03E17901D5B00B6004DE13D /* Build configuration list for PBXNativeTarget "ZYY_MJExtensionStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +584,7 @@
 				A03E17921D5B00B6004DE13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A03E17931D5B00B6004DE13D /* Build configuration list for PBXNativeTarget "ZYY_MJExtensionStudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +593,7 @@
 				A03E17951D5B00B6004DE13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
