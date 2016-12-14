@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZYYConst.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    extern NSString *str;
+    NSLog(@"str ====%@",str);
+
+    NSLog(@"str1====%@",str1);
+    
     return YES;
 }
 

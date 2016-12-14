@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '73383EEF8FAE38FCD8FCF5D72C00EC85'
-               BlueprintName = 'Pods-ZYY_MJExtensionStudy'
+               BlueprintIdentifier = '8C41B86FBA5ABA77EDDA298C91285D9B'
+               BlueprintName = 'YYModel'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-ZYY_MJExtensionStudy.a'>
+               BuildableName = 'libYYModel.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

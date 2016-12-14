@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6772B5B32EAEF67B682B037B /* libPods-ZYY_MJExtensionStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D107EFA1348ADB6356D552F7 /* libPods-ZYY_MJExtensionStudy.a */; };
+		A03BBEBE1D6437E400F4F4E6 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BBEBD1D6437E400F4F4E6 /* Status.m */; };
 		A03E17651D5B00B6004DE13D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E17641D5B00B6004DE13D /* main.m */; };
 		A03E17681D5B00B6004DE13D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E17671D5B00B6004DE13D /* AppDelegate.m */; };
 		A03E176B1D5B00B6004DE13D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E176A1D5B00B6004DE13D /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		A03E17731D5B00B6004DE13D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03E17711D5B00B6004DE13D /* LaunchScreen.storyboard */; };
 		A03E177E1D5B00B6004DE13D /* ZYY_MJExtensionStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E177D1D5B00B6004DE13D /* ZYY_MJExtensionStudyTests.m */; };
 		A03E17891D5B00B6004DE13D /* ZYY_MJExtensionStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E17881D5B00B6004DE13D /* ZYY_MJExtensionStudyUITests.m */; };
+		A04D6B4E1D6ED9D300D53A30 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A04D6B4D1D6ED9D300D53A30 /* UserModel.m */; };
+		A063D4D71D631028006D0741 /* Notes.json in Resources */ = {isa = PBXBuildFile; fileRef = A063D4D61D630BC7006D0741 /* Notes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 /* Begin PBXFileReference section */
 		3588CD6FC40DA4218411C7DC /* Pods-ZYY_MJExtensionStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYY_MJExtensionStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYY_MJExtensionStudy/Pods-ZYY_MJExtensionStudy.release.xcconfig"; sourceTree = "<group>"; };
 		792D11DBEF7E15CC835E6B63 /* Pods-ZYY_MJExtensionStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYY_MJExtensionStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYY_MJExtensionStudy/Pods-ZYY_MJExtensionStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		A03BBEBC1D6437E400F4F4E6 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		A03BBEBD1D6437E400F4F4E6 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		A03D1A841D5C5AB000A44EF8 /* ZYYConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYYConst.h; sourceTree = "<group>"; };
 		A03E17601D5B00B6004DE13D /* ZYY_MJExtensionStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYY_MJExtensionStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E17641D5B00B6004DE13D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A03E17661D5B00B6004DE13D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 		A03E17841D5B00B6004DE13D /* ZYY_MJExtensionStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYY_MJExtensionStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E17881D5B00B6004DE13D /* ZYY_MJExtensionStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYY_MJExtensionStudyUITests.m; sourceTree = "<group>"; };
 		A03E178A1D5B00B6004DE13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04D6B4C1D6ED9D300D53A30 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		A04D6B4D1D6ED9D300D53A30 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		A063D4D61D630BC7006D0741 /* Notes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Notes.json; sourceTree = "<group>"; };
 		D107EFA1348ADB6356D552F7 /* libPods-ZYY_MJExtensionStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYY_MJExtensionStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,6 +134,12 @@
 		A03E17621D5B00B6004DE13D /* ZYY_MJExtensionStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A063D4D61D630BC7006D0741 /* Notes.json */,
+				A04D6B4C1D6ED9D300D53A30 /* UserModel.h */,
+				A04D6B4D1D6ED9D300D53A30 /* UserModel.m */,
+				A03BBEBC1D6437E400F4F4E6 /* Status.h */,
+				A03BBEBD1D6437E400F4F4E6 /* Status.m */,
+				A03D1A841D5C5AB000A44EF8 /* ZYYConst.h */,
 				A03E17661D5B00B6004DE13D /* AppDelegate.h */,
 				A03E17671D5B00B6004DE13D /* AppDelegate.m */,
 				A03E17691D5B00B6004DE13D /* ViewController.h */,
@@ -234,6 +249,8 @@
 				TargetAttributes = {
 					A03E175F1D5B00B6004DE13D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y5ZP3NDNWZ;
+						ProvisioningStyle = Manual;
 					};
 					A03E17781D5B00B6004DE13D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A063D4D71D631028006D0741 /* Notes.json in Resources */,
 				A03E17731D5B00B6004DE13D /* LaunchScreen.storyboard in Resources */,
 				A03E17701D5B00B6004DE13D /* Assets.xcassets in Resources */,
 				A03E176E1D5B00B6004DE13D /* Main.storyboard in Resources */,
@@ -345,9 +363,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04D6B4E1D6ED9D300D53A30 /* UserModel.m in Sources */,
 				A03E176B1D5B00B6004DE13D /* ViewController.m in Sources */,
 				A03E17681D5B00B6004DE13D /* AppDelegate.m in Sources */,
 				A03E17651D5B00B6004DE13D /* main.m in Sources */,
+				A03BBEBE1D6437E400F4F4E6 /* Status.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -478,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,10 +511,13 @@
 			baseConfigurationReference = 792D11DBEF7E15CC835E6B63 /* Pods-ZYY_MJExtensionStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5ZP3NDNWZ;
 				INFOPLIST_FILE = ZYY_MJExtensionStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yirendai.ZYY-MJExtensionStudy";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.yidingying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2f9728a9-b895-44bc-a979-b472eaa907a8";
+				PROVISIONING_PROFILE_SPECIFIER = "GCApp-Dev";
 			};
 			name = Debug;
 		};
@@ -503,10 +526,13 @@
 			baseConfigurationReference = 3588CD6FC40DA4218411C7DC /* Pods-ZYY_MJExtensionStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5ZP3NDNWZ;
 				INFOPLIST_FILE = ZYY_MJExtensionStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yirendai.ZYY-MJExtensionStudy";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.yidingying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2f9728a9-b895-44bc-a979-b472eaa907a8";
+				PROVISIONING_PROFILE_SPECIFIER = "GCApp-Dev";
 			};
 			name = Release;
 		};
